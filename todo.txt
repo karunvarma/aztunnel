@@ -1,0 +1,23 @@
+1.Client connection timeout.
+2.Handle authentication.
+3.read about the "Any" error handling crate.
+
+test cases:
+1.what happens client control connection disconnects
+2.what happens when the public connection to tunnel server breaks
+3.what happens when the public connection from tunnel server to client proxy connection 
+breaks
+
+explore:
+1. Result 
+2. How async works in rust
+3. TCP keepalive vs application level heart beat.
+
+client - hello
+
+on server:
+
+server - hello(port)
+client - wait
+
+public internet - server port connection
